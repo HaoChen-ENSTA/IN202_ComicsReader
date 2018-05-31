@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\CbrMainWindow.o
+./release\graphicsview.o
+./release\ZipReader.o
+./release\cbrfiletree.o
+./release\CbrFolderTree.o
+./release\qrc_cbr.o
+./release\moc_CbrMainWindow.o
+./release\moc_ZipReader.o
+./release\moc_CbrFileTree.o
+./release\moc_CbrFolderTree.o
+);

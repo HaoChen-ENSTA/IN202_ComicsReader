@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/zoom_in.ico</file>
+        <file>icon/zoom_out.ico</file>
+        <file>icon/first_page.ico</file>
+        <file>icon/last_page.ico</file>
+        <file>icon/next.ico</file>
+        <file>icon/preview.ico</file>
+        <file>icon/two_page.ico</file>
+    </qresource>
+</RCC>

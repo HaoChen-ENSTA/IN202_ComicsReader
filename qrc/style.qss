@@ -1,0 +1,36 @@
+QSlider::add-page:Horizontal
+ {
+    background-color: rgb(87, 97, 106);
+    height:4px;
+ }
+ QSlider::sub-page:Horizontal
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(231,80,229, 255), stop:1 rgba(7,208,255, 255));
+    height:4px;
+ }
+QSlider::groove:Horizontal
+{
+    background:transparent;
+    height:6px;
+}
+QSlider::handle:Horizontal
+{
+    height: 30px;
+    width:8px;
+    border-image: url(:/qrc/slider.png);
+    margin: -8 0px;
+}
+QPushButton#pushButton{/
+    border-image: url(:/qrc/next.png);/
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));/
+
+}
+QPushButton:hover{
+    min-width:2em;
+    max-width:2em;
+    background-color: rgb(120, 150, 0);
+}
+QPushButton:pressed {
+    background-color: #1E90FF;
+    border-style: inset;
+}

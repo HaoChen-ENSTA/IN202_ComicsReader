@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\CbrMainWindow.o
+./debug\graphicsview.o
+./debug\ZipReader.o
+./debug\cbrfiletree.o
+./debug\CbrFolderTree.o
+./debug\qrc_cbr.o
+./debug\moc_CbrMainWindow.o
+./debug\moc_ZipReader.o
+./debug\moc_CbrFileTree.o
+./debug\moc_CbrFolderTree.o
+);
